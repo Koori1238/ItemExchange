@@ -1,0 +1,68 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+		  "path": "pages/login/login",
+		  "style": {
+		    "navigationBarTitleText": "login"
+		  }
+		},
+		{
+		      "path": "pages/detail/home/home",
+		      "style": {
+		        "navigationBarTitleText": "home"
+		      }
+		    },
+		    {
+		      "path": "pages/detail/publish/publish",
+		      "style": {
+		        "navigationBarTitleText": "publish"
+		      }
+		    },
+		    {
+		      "path": "pages/detail/profile/profile",
+		      "style": {
+		        "navigationBarTitleText": "profile"
+		      }
+		    }
+	],
+	"tabBar": {
+	    "color": "#666666",
+	    "selectedColor": "#007aff",
+	    "backgroundColor": "#ffffff",
+	    "borderStyle": "black",
+	    "list": [
+	      {
+	        "pagePath": "pages/detail/home/home",
+	        "text": "home",
+	        //"iconPath": "static/home.png",
+	        "selectedIconPath": "static/home_active.png"
+	      },
+	      {
+	        "pagePath": "pages/detail/publish/publish",
+	        "text": "publish",
+	        //"iconPath": "static/publish.png",
+	        "selectedIconPath": "static/publish.png"
+	      },
+	      {
+	        "pagePath": "pages/detail/profile/profile",
+	        "text": "profile",
+	        //"iconPath": "static/profile.png",
+	        "selectedIconPath": "static/profile.png"
+	      }
+	    ]
+	  },
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
